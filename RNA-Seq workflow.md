@@ -1,5 +1,3 @@
-# RNA-Seq workflow
-
 ## Overview
 
 Two analysis pipelines were developed to enable RNA-Seq data processing:
