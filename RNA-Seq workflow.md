@@ -1,37 +1,3 @@
-# RNA-Seq workflow
-
-### Table of Contents
-
-- [Overview](#)
-
-- [Software installation](#)
- - [Software folder](#)
- - [Star](#)
- - [RSEM](#)
- - [STAR-Fusion](#)
- - [RepeatMasker](#)
-
-- [Analysis pipeline](#)
- - [1. Gene/isoform expression quantification](#)
- - [1.1 STAR : reads alignment](#)
-  - [Generate index](#)
-  - [Generate alignments](#)
-  - [output](#)
- - [1.2 RSEM, expression quantification](#)
-  - [Generate Indices](#)
-  - [Calculate expression](#)
-  - [output](#)
- - [2. Gene fusion detection](#)
- - [STAR-Fusion](#)
-  - [Generate indexes](#)
-  - ​
-
-- [Reference](#)
-
-- [Test runs and future work (Originally from Jane)](#)
-
-  ​
-
 ## Overview
 
 Two analysis pipelines were developed to enable RNA-Seq data processing:
